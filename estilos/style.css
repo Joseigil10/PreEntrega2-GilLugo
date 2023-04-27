@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container-body {
+
+    background-image: url(/images/car1.jpg);
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 50%;
+    border-right-color: transparent;
+
+}
+
+p {
+    color: white;
+    font-size: large;
+    font-weight: 200;
+
+}
+
+.Fondo {
+    background-size: cover;
+    min-height: 200vh;
+    position: relative;
+    color: white;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, .2);
+    padding: 0;
+
+}
+
+.color-overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .2);
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+.footer__copyright {
+    display: flex;
+    color: gray;
+    font-weight: 400;
+    font-size: 3rem;
+    justify-content: center;
+}
+
+.card-text {
+    color: grey;
+}
+
+.container-buttons {
+    display: flex;
+    min-width: fit-content;
+    justify-content: space-around;
+
+}
+
+.container-buttons a {
+    text-decoration: none;
+    text-align: center;
+    font-size: 28px;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    background: #314652;
+    color: #f1f1f1;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
+    transition: all .4s ease-in-out;
+
+
+}
+.container-buttons a:hover{
+    transform: scale(1.2);
+}
+a{
+    transition: all .5s ease-in-out;
+}
+.card a:hover{
+    transform: scale(1.2) ;
+    cursor: pointer;
+    transition: all .4s ease;
+}
+.navbar a:hover{
+    transform: scale(1.2);
+    background-color: #343738;
+    border-radius: 90%;
+
+     
+}
+
+/* @media screen and (max-width: 800px) { */
+    
+    
+/* } */
